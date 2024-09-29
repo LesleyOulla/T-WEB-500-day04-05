@@ -1,0 +1,287 @@
+@font-face {
+  font-family: "fredokalight";
+  src: url("./assets/fonts/Fredoka_fonts/fredoka-variablefont_wdthwght-webfont.woff2")
+      format("woff2"),
+    url("./assets/fonts/Fredoka_fonts/fredoka-variablefont_wdthwght-demo.html")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1,
+h2 {
+  font-family: "fredoka";
+}
+
+p,
+a,
+label,
+button {
+  font-family: "fredokalight";
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 10px;
+}
+main {
+  padding: 20px;
+}
+section {
+  padding: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  h3 {
+    font-size: 25px;
+    font-family: "fredokalight";
+  }
+  h1 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+  .nb {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav a {
+    color: black;
+    /* padding: 10px; */
+    font-size: 10px;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav img {
+    width: 25%;
+    padding: 10px;
+  }
+  .presentation {
+    height: 200px;
+  }
+
+  .competences img {
+    padding: 20px;
+    width: auto;
+    min-width: 100px;
+  }
+
+  footer ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact button {
+    width: 130px;
+    height: 45px;
+    margin: 10px;
+    border-radius: 3px;
+    background-color: black;
+    color: wheat;
+  }
+
+  .logo img {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 1499px) {
+  h3 {
+    font-size: 35px;
+    font-family: "fredokalight";
+  }
+
+  .competences img {
+    padding: 20px;
+    width: 35%;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  nav .logo {
+    width: 35%;
+  }
+
+  nav a {
+    color: black;
+  }
+  nav a:hover {
+    cursor: pointer;
+  }
+
+  .nb {
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: wheat;
+  }
+  .nb a {
+    text-decoration: none;
+    color: wheat;
+  }
+  .nb a:hover {
+    text-transform: uppercase;
+  }
+
+  .experiences {
+    background-color: black;
+    color: wheat;
+  }
+
+  .ambitions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+  }
+
+  .presentation {
+    height: 300px;
+  }
+
+  ul {
+    display: contents;
+  }
+
+  .size1 {
+    font-size: 50px;
+  }
+
+  footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  input {
+    width: 450px;
+    height: 35px;
+  }
+
+  .contact button {
+    width: 130px;
+    height: 45px;
+    margin: 10px;
+    border-radius: 3px;
+    background-color: black;
+    color: wheat;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo img {
+    width: 25%;
+  }
+
+  input#message {
+    height: 100px;
+    padding: 10px;
+  }
+
+  .experiences {
+    background-color: black;
+    color: wheat;
+  }
+}
+
+.expérience1 {
+  display: flex;
+  justify-content: end;
+  padding: 20px;
+}
+.expérience2 {
+  display: flex;
+  justify-content: start;
+  padding: 20px;
+}
+
+.compétences1,
+.compétences2,
+.compétences3 {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.img_cp {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer img {
+  width: 30px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin: 20px;
+}
+footer a {
+  color: black;
+}
+footer .logo {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  height: 200px;
+}
